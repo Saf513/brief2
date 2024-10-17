@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*le header*/
+#header{
+    background-image:url(./img/background.png);
+    background-size: cover;
+    background-position:center ;
+    background-repeat: no-repeat;
+    
+
+}
+.navig{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+   
+}
+
+.navigation {
+    margin-right: 320px;
+}
+
+.logo{
+    height: 80px;
+   
+}
+
+.navbar{
+list-style: none;
+display: flex;
+}
+
+.navbar li {
+    margin: 0 15px;
+
+}
+
+.navbar a{
+    text-decoration: dotted;
+    color: #F5F5F5;
+    padding: auto;
+    
+}
+
+.navbar a:hover{
+    background-color:rgba(255, 255, 255, 0.2); 
+}
+.info p{
+    font-size: 24px;
+    color:#E9BD8C;
+font-family:'Inter';
+
+}
+
+.logo{
+    padding: 5px;
+}
+
+.box1{
+background-image:url(./img/Rectangle\ 69.png);
+background-repeat: no-repeat;
+width: 360px;
+height: 411px;
+}
+
+.hero1{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.hero2{
+    color: #E9BD8C;
+     font-family: Inter;
+      font-size: 24px;
+}
+
+.hero3{
+    font-family: Sansita Swashed;
+     color: white; 
+     font-size: 74px;
+}
+
+.hero4{
+    display: flex; 
+    margin-left: 100px; 
+    margin-top: 20px;
+}
+
+
+.hero4 button{
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: large;
+    background-color: #933C24;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.hero4  div {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.hero4 a {
+    text-decoration: none;
+    color: #E9BD8C;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns:
+    repeat(3, 0.2fr);
+    justify-content: center;
+    gap: 20px;
+}
+
+.titre1 h2{
+    display: flex;
+    justify-content: center;
+    font-family: Sansita Swashed;
+    font-weight: 600;
+    font-size: 64px;
+    padding-bottom: 20px;
+}
+
+.img-container {
+    margin-left: 80px;
+}
+
+.block1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    color: white;
+}
+
+.price {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.block2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-name {
+    font-family: inter;
+    color: white;
+    padding: 14px;
+    font-size: 24px;
+}
+
+.block-Btn {
+    font-size: 20px;
+    background-color: #933C24;
+    width: 90px;
+    height: 49px;
+    font-family: inter;
+    color: white;
+    margin-top: 15px;
+    margin-right: 8px;
+    border-radius: 10px;
+}

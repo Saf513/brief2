@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../cara-Ecommerce-Website/css"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "brief2"
+	}
+}
